@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'executing npm ...'
                nodejs('Node-23.11.0') {
-                    sh 'node --version'
+                    sh 'npm install axios'
               }
             }
         }
