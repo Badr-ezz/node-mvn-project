@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'executing maven ...'
             }
-        })
+        }
     }
 
     
